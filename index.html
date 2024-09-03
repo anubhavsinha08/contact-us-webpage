@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Hire-Me Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <input type="checkbox" name="hire" id="hire">
+        <div class="cards">
+            <div class="front">
+                <div class="top">
+                    <img src="./profile1.jpg" alt="" id="zoom" style="height: 8rem; border-radius: 50%; border: 2px solid white; padding: 0.2rem; margin: -0.8rem 0 0 0rem;">
+                    <div class="me">
+                        <h1>Anubhav Sinha</h1>
+                        <span>Full-Stack Learner</span>
+                        <span style="margin-top: 0.5rem;"><i class="fa-regular fa-envelope"></i> : sinhaanubhav278@gmail.com</span>
+                    </div>
+                </div>
+                <hr style="margin-top: -0.5rem;">
+                <h2 style="margin-left: 1rem;">TECH-SKILLS</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>C</li>
+                    <li>DSA</li>
+                </ul>
+                <div class="social">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="hii">
+                    <label class="check" for="hire" style="z-index: 100;">Hire-ME</label>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <div class="up">
+                        <h1>Contact-ME</h1>
+                        <label for="hire" style="z-index: 100;"><i class="fa-solid fa-xmark"></i></label>
+                    </div>
+                    <form action="">
+                        <label for="name">Enter Your Name</label>
+                        <input type="text" id="name" required>
+                        <label for="mail">E-MAIL</label>
+                        <input type="email" id="mail" required>
+                        <label for="name">MESSAGE</label>
+                        <input type="text">
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
